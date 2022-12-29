@@ -1,31 +1,31 @@
 *Data Engineering Project on COVID-19 DataLake by AWS*
 
-Performing data modeling, data wrangling and extract-load-transform using python on the COVID-19 Data Lake available on registry of open data AWS using various AWS tools such as boto3, Glue, S3, Athena and Redshift.
+Performing data modeling, data wrangling, and extract-load-transform (ETL) tasks using Python on the COVID-19 Data Lake available in the AWS Open Data Registry. This includes utilizing various AWS tools such as Boto3, Glue, S3, Athena, and Redshift.
 
 Tools and Usages:
 
-- Amazon S3 - Storing the data
-- Crawler - Used to extract all the schema and information straight from S3
-- Amazon Athena - Running adhoc sql queries on the available data in S3
-- AWS Glue - Data transformation
-- Amazon Redshift - Storing the tranfromed dimensional model in datawarehouse
-- boto3 - AWS python sdk for create, configure, and manage AWS services.
+- Amazon S3 is used for storing the data.
+- Crawlers are used to extract the schema and information directly from S3.
+- Amazon Athena is used for running ad hoc SQL queries on the data in S3.
+- AWS Glue is used for data transformation.
+- Amazon Redshift is used for storing the transformed dimensional model in a data warehouse.
+- Boto3 is the AWS Python SDK used for creating, configuring, and managing AWS services.
 
 Data Set: https://registry.opendata.aws/aws-covid19-lake/
 
 How to get the data?
 
-- Simply download and upload to S3 bucket
-- Using AWS CLI copy command: aws s3 cp s3://mybucket/test.txt s3://mybucket/test2.txt
-- Running in code by boto3
+- You can download and upload the data to an S3 bucket;
+- You can use the AWS CLI copy command: aws s3 cp s3://mybucket/test.txt s3://mybucket/test2.txt; or,
+- You can retrieve the data in code using Boto3.
 
 STEPS:
 
-- Running Crawlers on the data uploaded in S3
-- Analysing data using AWS Athena query editor
-- Building the ER-Data Model
-- ETL jobs in python
-- Saving result in S3
-- Building the Dimensional Model
-- Building Dimensional schema in Redshift
-- Storing the dimensional model into Redshift
+- Run Crawlers on the data uploaded to S3.
+- Analyze the data using the AWS Athena query editor.
+- Build an Entity-Relationship (ER) data model.
+- Perform ETL jobs in Python.
+- Save the results in S3.
+- Build a Dimensional Model.
+- Build a dimensional schema in Redshift.
+- Store the dimensional model in Redshift.

@@ -4,7 +4,7 @@ conn = redshift_connector.connect(
     host='covid-project.cizg6fhqbdnd.sa-east-1.redshift.amazonaws.com',
     database='covid19_project',
     user='awsuser',
-    password='I3t*hjom'
+    password='********'
 )
 
 conn.autocommit = True

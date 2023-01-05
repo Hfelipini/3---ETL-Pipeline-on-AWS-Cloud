@@ -2,6 +2,10 @@
 
 Performing data modeling, data wrangling, and extract-load-transform (ETL) tasks using Python on the COVID-19 Data Lake available in the AWS Open Data Registry. This includes utilizing various AWS tools such as Boto3, Glue, S3, Athena, and Redshift.
 
+<!-- What is the outcome? -->
+<!-- What are the insights/indicators you were able to trace after the analysis? -->
+<!-- Maybe we can attach a chart or something? -->
+
 Tools and Usages:
 
 - Amazon S3 is used for storing the data.
